@@ -1,0 +1,6 @@
+def create_coherent_state(alpha):
+    circuit = QuantumCircuit(1)
+
+    circuit.initialize([alpha], 0)
+
+    return circuit
